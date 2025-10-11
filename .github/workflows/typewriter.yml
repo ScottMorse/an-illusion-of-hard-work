@@ -1,0 +1,26 @@
+name: Work On My Novel In Peace
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "2 3/7 * * *"
+
+jobs:
+  typewriter:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push commits
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Play with Danny forever
+        run: |
+          git config user.name "danny[github-actions-bot]"
+          git config user.email "danny[github-actions-bot]@users.noreply.github.com"
+
+          echo "All work and no play makes Jack a dull boy" >> content.txt
+
+          git add content.txt
+          git commit -m "Here's Johnny!"
+          git push
