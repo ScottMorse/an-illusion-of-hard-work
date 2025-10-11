@@ -17,10 +17,12 @@ jobs:
       - name: Play with Danny forever
         run: |
           git config user.name "ScottMorse"
-          git config user.email "scott[bot]@users.noreply.github.com"
+          git config user.email "scottmorsedev@gmail.com"
 
           echo "All work and no play makes Jack a dull boy" >> content.txt
 
           git add content.txt
           git commit -m "Here's Johnny!"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
