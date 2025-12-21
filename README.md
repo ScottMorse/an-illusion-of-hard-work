@@ -1,21 +1,7 @@
-# The Illusion of Hard Work
-
-Because GitHub doesn't display commits to private repositories.
-
-## What is this?
+GitHub doesn't display commits to private repositories.
 
 This repository runs a scheduled job that creates commits to itself every day.
 
-This makes it look like I must be a hard-working developer to certain individuals, who want to see green squares on my GitHub profile.
+I do this because developers are judged based on their GitHub activity, but this activity only shows for public repositories. I don't agree with this judgement, precisely because of how easy it is to create worthless commits.
 
-## Why am I telling you this?
-
-Unfortunately, before I created this repository, even when I was doing a lot of work, it was often not visible, because I most often commit to private repositories, either owned by my employers or myself.
-
-I have open-source projects, but even with these, I will keep private repositories for internal use to keep the public repository clean.
-
-I'm simply automating the process of making worthless commits to a public repository manually every day, as many engineering influencers popularly suggest to others on LinkedIn and such. I would rather spend my time doing my actual work.
-
-I am confident in my own work, but I don't want someone who doesn't understand GitHub or people to be an irrational barrier to opportunity over these green squares.
-
-If you have found yourself here, then I thank you for actually reviewing my profile.
+I have seen many developers advocate for committing to a public repository daily purely for the sake of improving their green squares. I also don't agree with wasting my own time making sure I have worthless commits in my profile. So, I automated it. Those that are fooled by this do not know how to judge developers in the first place, and those that aren't can take a look at my actual work rather than a meaningless activity metric.
